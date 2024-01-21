@@ -19,7 +19,7 @@ const Registration = () => {
     console.log(values)//an array returning only the values
 
     const isEmpty = values.includes("")
-    console.log(isEmpty)//returns false if textbox is empty else true
+    console.log(isEmpty)//returns false if textbox is empty else true is returned
 
     if(isEmpty){ //checks if textbox empty or not
       alert("Please Provide All Information!")
